@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dda9c5c9-547d-404f-b33b-02aea8d414ff" name="Changes" comment="Javaclass assignment 2">
-      <change afterPath="$PROJECT_DIR$/src/Average.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TriangularTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumbersRangeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaClass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaClass.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LC.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TriangularTest">
+  <component name="RunManager" selected="Application.NumbersRangeSum">
     <configuration name="Distribution100" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Distribution100" />
       <module name="JavaClass" />
@@ -60,21 +56,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangularTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TriangularTest" />
+    <configuration name="NumbersRangeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumbersRangeSum" />
       <module name="JavaClass" />
-      <option name="PROGRAM_PARAMETERS" value="5 12 6" />
+      <option name="PROGRAM_PARAMETERS" value="13 20" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Distribution100" />
-      <item itemvalue="Application.TriangularTest" />
+      <item itemvalue="Application.NumbersRangeSum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TriangularTest" />
+        <item itemvalue="Application.NumbersRangeSum" />
       </list>
     </recent_temporary>
   </component>
@@ -87,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732425737684</updated>
       <workItem from="1732425739171" duration="6820000" />
-      <workItem from="1732480807353" duration="15918000" />
+      <workItem from="1732480807353" duration="18093000" />
     </task>
     <task id="LOCAL-00001" summary="Javaclass assignment 2">
       <created>1732683922394</created>
@@ -96,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732683922394</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Javaclass assignment 2">
+      <created>1733697262828</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733697262828</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
