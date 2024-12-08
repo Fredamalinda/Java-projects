@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dda9c5c9-547d-404f-b33b-02aea8d414ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaClass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Distribution100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RelativelyPrimeArray.java" afterDir="false" />
+    <list default="true" id="dda9c5c9-547d-404f-b33b-02aea8d414ff" name="Changes" comment="Javaclass assignment 2">
+      <change afterPath="$PROJECT_DIR$/src/Average.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TriangularTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaClass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaClass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LC.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.LC">
+}]]></component>
+  <component name="RunManager" selected="Application.TriangularTest">
     <configuration name="Distribution100" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Distribution100" />
       <module name="JavaClass" />
@@ -61,20 +60,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LC" />
+    <configuration name="TriangularTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TriangularTest" />
       <module name="JavaClass" />
+      <option name="PROGRAM_PARAMETERS" value="5 12 6" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Distribution100" />
-      <item itemvalue="Application.LC" />
+      <item itemvalue="Application.TriangularTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LC" />
+        <item itemvalue="Application.TriangularTest" />
       </list>
     </recent_temporary>
   </component>
@@ -87,11 +87,23 @@
       <option name="presentableId" value="Default" />
       <updated>1732425737684</updated>
       <workItem from="1732425739171" duration="6820000" />
-      <workItem from="1732480807353" duration="1150000" />
+      <workItem from="1732480807353" duration="15918000" />
     </task>
+    <task id="LOCAL-00001" summary="Javaclass assignment 2">
+      <created>1732683922394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732683922394</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Javaclass assignment 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Javaclass assignment 2" />
   </component>
 </project>
