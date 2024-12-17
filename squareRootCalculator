@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class SquareRootCalculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter an integer: ");
+        int number = scanner.nextInt();
+
+        double sqrtResult = calculateSquareRoot(number);
+        System.out.printf("Square root: %.2f%n", sqrtResult);
+    }
+
+    // Method to calculate the square root
+    public static double calculateSquareRoot(int num) {
+        return Math.sqrt(num);
+    }
+}
