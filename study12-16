@@ -1,0 +1,29 @@
+public class SquareRootCalculator {
+
+    // Function to compute the square root of a number
+    public static double computeSquareRoot(int number) {
+        return Math.sqrt(number);
+    }
+
+    public static void main(String[] args) {
+        try {
+            // Prompt the user to enter an integer
+            if (args.length < 1) {
+                System.out.println("Please provide an integer as a command-line argument.");
+                return;
+            }
+
+            int userInput = Integer.parseInt(args[0]);
+
+            // Compute the square root
+            double result = computeSquareRoot(userInput);
+
+            // Display the result as a double
+            System.out.printf("The square root of %d is: %.2f%n", userInput, result);
+        } catch (NumberFormatException e) {
+            System.out.println("Please enter a valid integer.");
+        } catch (Exception e) {
+            System.out.println("An error occurred: " + e.getMessage());
+        }
+    }
+}
