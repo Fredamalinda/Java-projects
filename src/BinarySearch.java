@@ -1,4 +1,3 @@
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -45,12 +44,16 @@ public class BinarySearch {
                 result = mid; // Found the key
                 lo = mid + 1; // Search for a larger index
             } else if (array[mid] < key) {
-                result = -(mid + 1); // Save the largest index where a[i] < key
-                lo = mid + 1;
+                lo = mid + 1; // Narrow search to the right
             } else {
-                hi = mid - 1;
+                hi = mid - 1; // Narrow search to the left
             }
         }
-        return result;
+
+        if (result != -1) {
+            return result; // Return the largest index where a[i] == key
+        }
+
+        return -(lo - 1); // Return the largest index where a[i] < key
     }
 }

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dda9c5c9-547d-404f-b33b-02aea8d414ff" name="Changes" comment="Javaclass assignment 3">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/input.txt" afterDir="false" />
+    <list default="true" id="dda9c5c9-547d-404f-b33b-02aea8d414ff" name="Changes" comment="Javaclass assignment 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.BinarySearch">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch" />
@@ -86,7 +90,7 @@
       <updated>1732425737684</updated>
       <workItem from="1732425739171" duration="6820000" />
       <workItem from="1732480807353" duration="19502000" />
-      <workItem from="1734921983963" duration="5968000" />
+      <workItem from="1734921983963" duration="8631000" />
     </task>
     <task id="LOCAL-00001" summary="Javaclass assignment 2">
       <created>1732683922394</created>
@@ -116,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1735497617342</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Javaclass assignment 5">
+      <created>1735520539097</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735520539097</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Javaclass assignment 2" />
     <MESSAGE value="Javaclass assignment 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Javaclass assignment 3" />
+    <MESSAGE value="Javaclass assignment 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Javaclass assignment 5" />
   </component>
 </project>
