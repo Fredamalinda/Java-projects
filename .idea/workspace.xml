@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dda9c5c9-547d-404f-b33b-02aea8d414ff" name="Changes" comment="Javaclass assignment 5">
+      <change afterPath="$PROJECT_DIR$/src/LineNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedStackOfStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,35 +33,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch" />
-      <module name="JavaClass" />
-      <option name="PROGRAM_PARAMETERS" value="input.txt 10" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LinkedStackOfStrings">
     <configuration name="Distribution100" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Distribution100" />
       <module name="JavaClass" />
@@ -70,13 +63,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedStackOfStrings" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedStackOfStrings" />
+      <module name="JavaClass" />
+      <option name="PROGRAM_PARAMETERS" value="this, is a, test " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Distribution100" />
-      <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.LinkedStackOfStrings" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.LinkedStackOfStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +91,8 @@
       <updated>1732425737684</updated>
       <workItem from="1732425739171" duration="6820000" />
       <workItem from="1732480807353" duration="19502000" />
-      <workItem from="1734921983963" duration="8631000" />
+      <workItem from="1734921983963" duration="10123000" />
+      <workItem from="1736081989065" duration="6098000" />
     </task>
     <task id="LOCAL-00001" summary="Javaclass assignment 2">
       <created>1732683922394</created>
@@ -127,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1735520539097</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Javaclass assignment 5">
+      <created>1735523424379</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735523424379</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
