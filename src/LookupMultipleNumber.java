@@ -23,7 +23,7 @@ public class LookupMultipleNumber {
         // Initialize a symbol table (HashMap) to store key-value pairs
         Map<String, Queue<String>> symbolTable = new HashMap<>();
 
-        // Read file contents
+        // Reads the file contents
         Scanner fileScanner = new Scanner(new File(filename));
         while (fileScanner.hasNextLine()) {
             String[] tokens = fileScanner.nextLine().split(",");

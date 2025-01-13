@@ -8,9 +8,9 @@ public class SubGraph {
             return;
         }
 
-        // Parse command-line arguments
-        String filename = args[0];
-        Set<String> subGraphVertices = new HashSet<>(Arrays.asList(Arrays.copyOfRange(args, 1, args.length)));
+        // Parse the command line arguments
+        String filename = args[0]; // Reads the file name and the vertices for the subgraph from the command-line arguments
+        Set<String> subGraphVertices = new HashSet<>(Arrays.asList(Arrays.copyOfRange(args, 1, args.length))); // Uses a HashSet to store unique vertices thats specified
 
         // Create an adjacency list for the graph
         Map<String, List<String>> graph = new HashMap<>();
@@ -23,6 +23,7 @@ public class SubGraph {
             String v1 = vertices[0];
             String v2 = vertices[1];
 
+            // Ensures each vertex exists in the graph and adds edges in both directions.
             graph.putIfAbsent(v1, new ArrayList<>());
             graph.putIfAbsent(v2, new ArrayList<>());
 
@@ -37,7 +38,7 @@ public class SubGraph {
             System.out.println(vertex + ": " + String.join(" ", graph.get(vertex)));
         }
 
-        // Build the subgraph
+        // Build the subgraph by extracting vertices and edges that match the user’s input.
         System.out.println("The subgraph is:");
         for (String vertex : subGraphVertices) {
             if (graph.containsKey(vertex)) {

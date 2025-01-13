@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dda9c5c9-547d-404f-b33b-02aea8d414ff" name="Changes" comment="Javaclass assignment 6">
-      <change afterPath="$PROJECT_DIR$/amino.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LookupMultipleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/amino.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph.txt" afterDir="false" />
+    <list default="true" id="dda9c5c9-547d-404f-b33b-02aea8d414ff" name="Changes" comment="Javaclass assignment 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LookupMultipleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LookupMultipleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SubGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LookupMultipleNumber">
+  <component name="RunManager" selected="Application.SubGraph">
     <configuration name="Distribution100" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Distribution100" />
       <module name="JavaClass" />
@@ -71,21 +67,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LookupMultipleNumber" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="introcs.JavaClass.LookupMultipleNumber" />
+    <configuration name="SubGraph" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="SubGraph" />
       <module name="JavaClass" />
-      <option name="PROGRAM_PARAMETERS" value="amino.csv 2 Tryptophan Cysteine Leucine" />
+      <option name="PROGRAM_PARAMETERS" value="graph.txt A C G" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Distribution100" />
-      <item itemvalue="Application.LookupMultipleNumber" />
+      <item itemvalue="Application.SubGraph" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LookupMultipleNumber" />
+        <item itemvalue="Application.SubGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +96,7 @@
       <workItem from="1732425739171" duration="6820000" />
       <workItem from="1732480807353" duration="19502000" />
       <workItem from="1734921983963" duration="10123000" />
-      <workItem from="1736081989065" duration="15036000" />
+      <workItem from="1736081989065" duration="20482000" />
     </task>
     <task id="LOCAL-00001" summary="Javaclass assignment 2">
       <created>1732683922394</created>
@@ -151,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736656755020</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Javaclass assignment 7">
+      <created>1736709386206</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736709386206</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +177,7 @@
     <MESSAGE value="Javaclass assignment 3" />
     <MESSAGE value="Javaclass assignment 5" />
     <MESSAGE value="Javaclass assignment 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Javaclass assignment 6" />
+    <MESSAGE value="Javaclass assignment 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Javaclass assignment 7" />
   </component>
 </project>
