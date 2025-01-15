@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dda9c5c9-547d-404f-b33b-02aea8d414ff" name="Changes" comment="Javaclass assignment 7">
-      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Histogram.java" afterDir="false" />
+    <list default="true" id="dda9c5c9-547d-404f-b33b-02aea8d414ff" name="Changes" comment="final exam assignments">
+      <change afterPath="$PROJECT_DIR$/src/Hamming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StdDrawTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaClass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaClass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Histogram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +47,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "settings.editor.selected.configurable": "Runtime.Targets.Configurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -59,7 +59,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Histogram">
+  <component name="RunManager" selected="Application.Hamming">
     <configuration name="Distribution100" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Distribution100" />
       <module name="JavaClass" />
@@ -68,21 +68,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Histogram" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="introcs.JavaClass.Histogram" />
+    <configuration name="Hamming" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="introcs.JavaClass.Hamming" />
       <module name="JavaClass" />
-      <option name="PROGRAM_PARAMETERS" value="&lt; data.txt" />
+      <option name="PROGRAM_PARAMETERS" value="2 0011" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Distribution100" />
-      <item itemvalue="Application.Histogram" />
+      <item itemvalue="Application.Hamming" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Histogram" />
+        <item itemvalue="Application.Hamming" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +97,8 @@
       <workItem from="1732425739171" duration="6820000" />
       <workItem from="1732480807353" duration="19502000" />
       <workItem from="1734921983963" duration="10123000" />
-      <workItem from="1736081989065" duration="24138000" />
+      <workItem from="1736081989065" duration="28635000" />
+      <workItem from="1736849789121" duration="9854000" />
     </task>
     <task id="LOCAL-00001" summary="Javaclass assignment 2">
       <created>1732683922394</created>
@@ -162,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736747456430</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="final exam assignments">
+      <created>1736814807959</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736814807959</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +194,7 @@
     <MESSAGE value="Javaclass assignment 5" />
     <MESSAGE value="Javaclass assignment 6" />
     <MESSAGE value="Javaclass assignment 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Javaclass assignment 7" />
+    <MESSAGE value="final exam assignments" />
+    <option name="LAST_COMMIT_MESSAGE" value="final exam assignments" />
   </component>
 </project>
