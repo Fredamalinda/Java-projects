@@ -30,7 +30,7 @@ public class Histogram {
                     int index = (int) ((value - left) / intervalWidth);
                     counts[index]++;
                 }
-            }
+            } 
             scanner.close();
 
             // Configures the drawing area. The X-axis spans from left to right, and the Y-axis goes from 0 to the maximum count + 1
