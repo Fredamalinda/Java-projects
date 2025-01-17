@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dda9c5c9-547d-404f-b33b-02aea8d414ff" name="Changes" comment="final exam assignments">
-      <change afterPath="$PROJECT_DIR$/src/Hamming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StdDrawTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Histogram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Hamming">
+  <component name="RunManager" selected="Application.Square">
     <configuration name="Distribution100" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Distribution100" />
       <module name="JavaClass" />
@@ -68,21 +66,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hamming" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="introcs.JavaClass.Hamming" />
+    <configuration name="Square" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="introcs.JavaClass.Square" />
       <module name="JavaClass" />
-      <option name="PROGRAM_PARAMETERS" value="2 0011" />
+      <option name="PROGRAM_PARAMETERS" value="0.2 0.7 0.3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Distribution100" />
-      <item itemvalue="Application.Hamming" />
+      <item itemvalue="Application.Square" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Hamming" />
+        <item itemvalue="Application.Square" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +96,7 @@
       <workItem from="1732480807353" duration="19502000" />
       <workItem from="1734921983963" duration="10123000" />
       <workItem from="1736081989065" duration="28635000" />
-      <workItem from="1736849789121" duration="9854000" />
+      <workItem from="1736849789121" duration="16288000" />
     </task>
     <task id="LOCAL-00001" summary="Javaclass assignment 2">
       <created>1732683922394</created>
@@ -170,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736814807959</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="final exam assignments">
+      <created>1736914849995</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736914849995</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
