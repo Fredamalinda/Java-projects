@@ -1,0 +1,117 @@
+Question 1
+Give the simplified tilde notation of each of the following formulas, and give the order of growth of each.
+1.	n (n – 1) (n – 2)  / 24
+2.	(n – 2) (lg n) (lg n + 2)
+3.	n (4n +1) – n^2 
+4.	n (n^2 +1) / 2 + n lg n
+5.	lg ((n – 1)(n^2) (n – 2))^3
+Answer: 
+1.	First we need to simplify the expression, then identify the dominate term. 
+
+ 
+
+ 
+
+ 
+	Tilde Notation is    
+	Order of growth:  
+
+2.	First we need to simplify the expression, then use the tilde notation to represent its asymptotic behavior
+ 
+
+Tidal Notation is  
+Order of growth:  
+
+3.	Expand the term  
+ 
+
+Subtract  
+ 
+
+Tilde notation is  
+
+Order of growth:  
+
+
+4.	First expand on the term  , divide by 2, then add n lg n
+ 
+
+ 
+
+ 
+
+Tilde Notation is  
+
+Order of Growth is  
+
+
+5.	Simplify the base  
+
+ 
+
+Apply the cube to the term  
+
+ 
+
+Apply the logarithmic properties of  
+
+ 
+
+Tilde Notation is   
+
+Order of growth is  
+
+
+
+  ,m,
+
+Question 2
+Determine whether the following code fragment takes linear time, quadratic time, or cubic time (as a function of n). Also give an explanation of your answer.
+for (int i = 0; i < n; i++)
+   for (int j = 0; j < n; j++)
+     for (int k = 0; k < n; k++)
+      if( (i == j) && (j==k))
+ c[i][j][k] = 1.0;
+      else        
+c[i][j][k] = 0.0; 
+
+Answer:
+The i-loop iterates n times, the j-loop iterates n times for each iteration of i, and the k-loop iterates n times for each iteration of j. This results in n \times n \times n = n^3 total iterations. Since the work inside the loop is constant or in other words, nested, the overall time complexity is O(n^3).
+
+Code Fragment:
+for (int i = 0; i < n; i++)        // Outer loop
+    for (int j = 0; j < n; j++)    // Middle loop
+        for (int k = 0; k < n; k++) // Inner loop
+            if ((i == j) && (j == k))
+                c[i][j][k] = 1.0;
+            else        
+                c[i][j][k] = 0.0;
+
+Question 3 
+Suppose the running times of an algorithm for inputs of size 1,000, 2,000, 3,000, and 4,000 are 5 seconds, 40 seconds, 135 seconds, and 320 seconds, respectively, and respond to the following.
+Estimate how long it will take to solve a problem of size 5,000.
+Is the algorithm linear, linearithmic, quadratic, cubic, or exponential?
+Give an explanation of your answer.
+
+Answer: 
+The running times of an algorithm in a chart
+ 	  (seconds)
+1,000	5
+2,000	40
+3,000	135
+4,000	320
+5,000	?
+
+We need to look at how  scales with   using ratios and patterns
+Going from n=1,000 to n=2,000
+ 
+
+Going from n=2,000 to n=3,000
+ 
+
+Going from n=3,000 to n=4,000
+ 
+
+The algorithm is cubic   because it involves operations that will require a triple nested loop. 
+It would take 625 seconds to solve a
+ problem of size 5.000
